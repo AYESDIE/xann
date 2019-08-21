@@ -9,4 +9,7 @@ add_executable(
     xann
     main.cpp
     neuron.cpp
+    layer.cpp
+    matrix.cpp
+    ann.cpp
 )

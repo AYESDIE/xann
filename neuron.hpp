@@ -26,6 +26,9 @@ public:
     double getActivatedValue() { return this->activatedValue; }
     double getDerivedValue() { return this->derivedValue; }
 
+    // Setter
+    void setValue(double value);
+
 private:
     double value;
     double activatedValue;
